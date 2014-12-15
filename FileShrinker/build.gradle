@@ -14,3 +14,10 @@ if (!hasProperty('mainClass')) {
     ext.mainClass = 'shrinkpgn.ShrinkPGN'
 }
 
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'ShrinkPGN', 'Implementation-Version': 'version 1.0'
+         attributes 'Main-Class': 'shrinkpgn.ShrinkPGN'
+        
+    }
+}
